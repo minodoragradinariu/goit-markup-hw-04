@@ -73,12 +73,15 @@ body {
     position: relative;
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .span-logo {
     color: #404bbf;
     position: relative;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list {
@@ -104,7 +107,7 @@ body {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    
+
 }
 
 .header-link:hover {
