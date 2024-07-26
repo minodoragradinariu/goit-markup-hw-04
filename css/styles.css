@@ -227,7 +227,7 @@ body {
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
-    
+
 }
 .third-section {
     background-color: #f4f4fd;
@@ -397,8 +397,4 @@ body {
 .footer-svg{
     fill: #f4f4fd;
     
-}
-svg{
-    width: 24;
-    height: 24;
 }
