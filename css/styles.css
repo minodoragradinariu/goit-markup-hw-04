@@ -490,7 +490,7 @@ body {
     transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-list-link {
+.footer-link {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -498,13 +498,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition-property:background-color;
+    transition-property:backgroundcolor;
     transition-duration: 250ms;
     transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.footer-list-link:hover {
+.footer-link:hover {
     background-color: #31d0aa;
 }
 
