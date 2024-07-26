@@ -305,7 +305,6 @@ body {
     transition-property: backgroundcolor;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    ;
 }
 
 .element-list-link {
@@ -316,6 +315,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-property: backgroundcolor;
+    transition-duration:  250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .element-list-link:hover {
