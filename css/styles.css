@@ -515,5 +515,7 @@ body {
 
 .footer-svg {
     fill: #f4f4fd;
-
+    transition-property: backgroundcolor;
+    transition-duration:  250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
