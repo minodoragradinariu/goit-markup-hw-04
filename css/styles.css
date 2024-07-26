@@ -302,7 +302,7 @@ body {
 .element-list-svg {
     width: 40px;
     height: 40px;
-    transition-property: color, background-color;
+    transition-property: backgroundcolor;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     ;
@@ -373,7 +373,7 @@ body {
 
 .fourth-section-item-list {
     width: calc((100% - 48px) / 3);
-    transition-property: background-color;
+    transition-property: backgroundcolor;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
