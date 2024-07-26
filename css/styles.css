@@ -281,9 +281,7 @@ body {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transition-property: backgroundcolor;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition:background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .angajat-pozitie {
@@ -310,9 +308,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition-property: backgroundcolor;
-    transition-duration:  250ms ;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    transition:background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .element-list-link:hover {
@@ -370,9 +366,7 @@ body {
 
 .fourth-section-item-list {
     width: calc((100% - 48px) / 3);
-    transition-property: backgroundcolor;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    transition:background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .fourth-section-item-list:hover {
@@ -392,9 +386,7 @@ body {
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition: transform ;
-    transition-duration:  250ms;
-    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+    transition:background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .aplicatie-categorie {
@@ -482,9 +474,7 @@ body {
 .footer-list-item {
     width: 40px;
     height: 40px;
-    transition-property:  backgroundcolor;;
-    transition-duration: 250ms;
-    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+    transition:background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link {
@@ -495,9 +485,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition-property:backgroundcolor;
-    transition-duration: 250ms;
-    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+    transition:background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover {
@@ -510,7 +498,5 @@ body {
 
 .footer-svg {
     fill: #f4f4fd;
-    transition-property: backgroundcolor;
-    transition-duration:  250ms ;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    transition:background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
