@@ -372,7 +372,7 @@ body {
     position: relative;
     overflow: hidden;
 }
-.fourth-section-imagine:first-child:hover{
+.fourth-item-list:nth-child(2):hover{
     transform: translateY(0%);
 }
 .fourth-section-item-p{
