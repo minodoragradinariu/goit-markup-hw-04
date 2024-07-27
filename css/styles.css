@@ -373,6 +373,9 @@ body {
     position: relative;
     overflow: hidden;
 }
+.fourth-section-img:hover{
+    transform: translateY(0%);
+}
 .fourth-section-item-p {
     position: absolute;
     top: 0;
@@ -388,7 +391,7 @@ body {
     transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fourth-section-item-p:hover{
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 .fourth-item-list {
     width: calc((100% - 48px) / 3);
@@ -402,8 +405,9 @@ body {
      rgba(46, 47, 66, 0.16), 
      0px 2px 1px
      rgba(46, 47, 66, 0.08);
-   
+    transform: translateY(0%);
 }
+
 .aplicatie-categorie {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
